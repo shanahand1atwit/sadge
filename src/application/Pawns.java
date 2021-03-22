@@ -1,17 +1,27 @@
 package application;
 
 public class Pawns {
-	private int location;
-	private String color;
-	private boolean inHome=false;
+	private int location;	// holds location of pawn on board
+	private String color;	// holds color of pawn
+	private boolean inStart=true;	// tells if pawn is at start
+	private boolean inHome=false;	// tells if pawn is at home
 	
+	/**
+	 * Initializes pawns
+	 * 
+	 */
 	public Pawns(String clr)
 	{
 		color = clr;
-		setHome();
+		setStart();
 	}
 	
-	public void setHome()
+	/**
+	 * Sets pawn's location to its
+	 * respective color's start
+	 * 
+	 */
+	public void setStart()
 	{
 		if (color.equals("Red"))
 		{

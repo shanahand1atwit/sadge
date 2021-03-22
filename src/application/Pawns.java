@@ -23,21 +23,21 @@ public class Pawns {
 	 */
 	public void setStart()
 	{
-		if (color.equals("Red"))
+		if (color.equals("Green"))
 		{
-			location = 60;
+			location = 80;
+		}
+		else if (color.equals("Red"))
+		{
+			location = 81;
 		}
 		else if (color.equals("Blue"))
 		{
-			location = 61;
-		}
-		else if (color.equals("Green"))
-		{
-			location = 62;
+			location = 82;
 		}
 		else
 		{
-			location = 63;
+			location = 83;
 		}
 	}
 }

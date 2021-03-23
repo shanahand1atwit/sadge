@@ -6,5 +6,6 @@ public class Main {
 		System.out.println(test.cards);
 		System.out.println(test.draw());
 		System.out.println(test.cards);
+		System.out.println("Hello World");
 	}
 }

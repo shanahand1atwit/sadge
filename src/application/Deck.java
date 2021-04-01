@@ -14,6 +14,11 @@ public class Deck
 		populateDeck();
 	}
 	
+	public int deckSize()
+	{
+		return cards.size();
+	}
+	
 	public int draw()
 	{
 		int random = rand.nextInt(cards.size());

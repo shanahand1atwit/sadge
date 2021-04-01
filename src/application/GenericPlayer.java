@@ -20,5 +20,15 @@ public class GenericPlayer {
 			playerPawns[x] = new Pawns(color);
 		}
 	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public String getColor()
+	{
+		return color;
+	}
 
 }

@@ -18,6 +18,7 @@ public class GenericPlayer {
 		for (int x =0; x<playerPawns.length; x++)
 		{
 			playerPawns[x] = new Pawns(color);
+			playerPawns[x].setStart();
 		}
 	}
 	
@@ -29,6 +30,18 @@ public class GenericPlayer {
 	public String getColor()
 	{
 		return color;
+	}
+	
+	public boolean hasStart()
+	{
+		for (Pawns p : playerPawns)
+		{
+			if (p.isStart())
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 
 }

@@ -40,4 +40,16 @@ public class Pawns {
 			location = 83;
 		}
 	}
+	
+	public boolean isStart()
+	{
+		if (location == 80 || location == 81 || location == 82 || location == 83)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }

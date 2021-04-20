@@ -1,114 +1,42 @@
 package application;
 
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.ResourceBundle;
 import java.util.Scanner;
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
 
 public class Main extends Application{
 	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("Sorry Board.fxml"));
-			Scene scene = new Scene(root,400,400);
+			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("application/StartGame.fxml"));
+			Scene scene = new Scene(root);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-	
 	}
 	
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		boolean exit = false;
-		System.out.println("Enter amount of players: ");
-		int playerCount = input.nextInt();
-		Players[] playerArray = new Players[playerCount];
-		for (int x = 0; x < playerArray.length; x++)
-		{
-			System.out.println("Enter the players name: ");
-			String name = input.next();
-			System.out.println("Enter the players color: ");
-			String color = input.next();
-			playerArray[x] = new Players(name, color);
-		}
-		
 		launch(args);
-		
-		Deck roll = new Deck();
-		{
-			movement(roll.draw());
-		}
-		while (exit == true);
+	}
+	
+	public static void changeWindow()
+	{
 		
 	}
 	
-	public static void testReset(Deck d)
-	{
-		if (d.deckSize() == 0)
-		{
-			d.shuffle();
-		}
-	}
-	
-	public static void movement(int d)
-	{
-		if (d == 1)
-		{
-			
-		}
-		else if (d == 2)
-		{
-			
-		}
-		else if (d == 3)
-		{
-			
-		}
-		else if (d == 4)
-		{
-			
-		}
-		else if (d == 5)
-		{
-			
-		}
-		else if (d == 6)
-		{
-			
-		}
-		else if (d == 7)
-		{
-			
-		}
-		else if (d == 8)
-		{
-			
-		}
-		else if (d == 9)
-		{
-			
-		}
-		else if (d == 10)
-		{
-			
-		}
-		else if (d == 11)
-		{
-			
-		}
-		else if (d == 12)
-		{
-			
-		}
-		else if (d == 13)
-		{
-			
-		}
-	}
 }

@@ -4,9 +4,11 @@ public class SlideTile extends Tiles{
 	
 	private boolean isStart = false;
 	private int length;
+	private String color;
 	
-	public SlideTile(int tn, String color) {
-		super(tn, color);
+	public SlideTile(int tn, String cl) {
+		super(tn, 0);
+		color = cl;
 		if (tn == 1 || tn == 16 || tn == 31 || tn == 46)
 		{
 			isStart = true;
@@ -17,6 +19,11 @@ public class SlideTile extends Tiles{
 			isStart = true;
 			length = 5;
 		}
+	}
+	
+	public String getColor()
+	{
+		return color;
 	}
 
 }

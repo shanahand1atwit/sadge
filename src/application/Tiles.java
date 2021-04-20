@@ -3,12 +3,12 @@ package application;
 public class Tiles 
 {
 	private int tileNumber;
-	private int color;
 	private int pawnCount;
 	
-	public Tiles(int tn, String color)
+	public Tiles(int tn, int pwnCnt)
 	{
 		tileNumber = tn;
+		pawnCount = pwnCnt;
 	}
 	
 	/**

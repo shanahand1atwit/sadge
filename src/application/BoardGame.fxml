@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <GridPane fx:id="Rgrid" layoutX="22.0" layoutY="24.0" prefHeight="35.0" prefWidth="525.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="10" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="11" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="13" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="14" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="Ggrid" layoutX="22.0" layoutY="59.0" prefHeight="525.0" prefWidth="35.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="10" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="11" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="13" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="14" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="Ygrid" layoutX="57.0" layoutY="557.0" prefHeight="35.0" prefWidth="525.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="10" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="11" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="13" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="14" />
+         </children>
+      </GridPane>
+      <GridPane fx:id="Bgrid" layoutX="548.0" layoutY="24.0" prefHeight="525.0" prefWidth="35.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="6" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="7" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="8" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="9" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="10" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="11" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="12" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="13" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="14" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="92.0" layoutY="59.0" prefHeight="175.0" prefWidth="35.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="10.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="10.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="10.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="477.0" layoutY="379.0" prefHeight="175.0" prefWidth="35.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="10.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fafd39" height="35.0" layoutX="10.0" layoutY="81.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="10.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="372.0" layoutY="96.0" prefHeight="35.0" prefWidth="175.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="45.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4681ff" height="35.0" layoutX="80.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="115.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="4" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="57.0" layoutY="484.0" prefHeight="35.0" prefWidth="175.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="45.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2bed58" height="35.0" layoutX="80.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="115.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="35.0" GridPane.columnIndex="4" />
+         </children>
+      </GridPane>
+      <Circle fill="RED" layoutX="110.0" layoutY="269.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#4681ff" layoutX="337.0" layoutY="114.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#fafd39" layoutX="495.0" layoutY="346.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#2bed58" layoutX="267.0" layoutY="502.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#fafd39" layoutX="425.0" layoutY="522.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#2bed58" layoutX="92.0" layoutY="427.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="RED" layoutX="180.0" layoutY="94.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#4681ff" layoutX="512.0" layoutY="184.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+      <Pane layoutX="583.0" prefHeight="621.0" prefWidth="354.0">
+         <children>
+            <Label layoutX="61.0" layoutY="14.0" prefHeight="38.0" prefWidth="13.0" text="1">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="52.0" prefHeight="38.0" prefWidth="13.0" text="2">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" layoutX="61.0" layoutY="90.0" prefHeight="38.0" prefWidth="13.0" text="3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="label4" layoutX="61.0" layoutY="128.0" prefHeight="38.0" prefWidth="13.0" text="4">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="choice1" layoutX="33.0" layoutY="344.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="103.0" text="Button" visible="false" />
+            <Button fx:id="choice2" layoutX="212.0" layoutY="344.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="103.0" text="Button" visible="false" />
+            <Text fx:id="name1" layoutX="85.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="254.13665771484375">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text fx:id="name2" layoutX="85.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="254.13665771484375">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text fx:id="name3" layoutX="85.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="254.13665771484375">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <Text fx:id="name4" layoutX="85.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="254.13665771484375">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <TextArea fx:id="question" editable="false" layoutX="19.0" layoutY="172.0" prefHeight="164.0" prefWidth="317.0" />
+            <Polygon fx:id="arrow1" layoutX="-35.0" layoutY="8.0" points="50.00006103515625, 9.000015258789062, 50.0, 40.0, 85.99993896484375, 25.000015258789062" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="arrow2" layoutX="-35.0" layoutY="44.0" points="50.00006103515625, 9.000015258789062, 50.0, 40.0, 85.99993896484375, 25.000015258789062" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="arrow3" layoutX="-35.0" layoutY="82.0" points="50.00006103515625, 9.000015258789062, 50.0, 40.0, 85.99993896484375, 25.000015258789062" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon fx:id="arrow4" layoutX="-35.0" layoutY="122.0" points="50.00006103515625, 9.000015258789062, 50.0, 40.0, 85.99993896484375, 25.000015258789062" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <GridPane fx:id="GStart" layoutX="66.0" layoutY="403.0" prefHeight="47.0" prefWidth="52.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="Gpiece2" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/greenpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Gpiece1" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/greenpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Gpiece4" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/greenpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Gpiece3" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/greenpiece.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane fx:id="RStart" layoutX="154.0" layoutY="72.0" prefHeight="47.0" prefWidth="52.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="Rpiece1" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/redpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Rpiece2" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/redpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Rpiece3" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/redpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Rpiece4" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/redpiece.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane fx:id="YStart" layoutX="399.0" layoutY="498.0" prefHeight="47.0" prefWidth="52.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="Ypiece1" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/yellowpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Ypiece3" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/yellowpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Ypiece4" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/yellowpiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Ypiece2" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/yellowpiece.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <GridPane fx:id="BStart" layoutX="486.0" layoutY="160.0" prefHeight="47.0" prefWidth="52.0">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="Bpiece3" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/bluepiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Bpiece1" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/bluepiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Bpiece2" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/bluepiece.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Bpiece4" disable="true" fitHeight="24.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../../../Desktop/sorry%20pieces/bluepiece.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

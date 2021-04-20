@@ -1,13 +1,13 @@
 package application;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 
 public class Deck
 {
-	private Random rand = new Random();
-	public ArrayList<Integer> cards;
+	private ArrayList<Integer> cards;
 			
 	public Deck()	{
 		cards = new ArrayList<Integer>(45);
@@ -21,9 +21,10 @@ public class Deck
 	
 	public int draw()
 	{
-		int random = rand.nextInt(cards.size());
-		int c = cards.get(random);
-		cards.remove(random);
+		int c = cards.get(0);
+		//System.out.println(c);
+		cards.remove(0);
+		//System.out.println(cards);
 		return c;
 	}
 	
@@ -62,6 +63,10 @@ public class Deck
 				currentNum++;
 			}	
 		}
+		
+		//System.out.println(cards);
+		Collections.shuffle(cards);
+		//System.out.println(cards);
 	}
 
 }
